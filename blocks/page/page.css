@@ -1,6 +1,4 @@
 .page {
-  max-width: 1440px;
-  margin: auto;
-  background-color: #e5e5e5;
-  font-family: 'Inter', sans-serif;
+  background-color: #2a2c2f;
+  font-family: 'Inter', 'Inter var', sans-serif;
 }
