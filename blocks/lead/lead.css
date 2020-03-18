@@ -1,0 +1,20 @@
+@import url('__title/lead__title.css');
+@import url('__subtitle/lead__subtitle.css');
+@import url('__image/lead__image.css');
+@import url('__overlay/lead__overlay.css');
+@import url('__caption/lead__caption.css');
+
+
+.lead {
+  max-width: 984px;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-rows: repeat(4, auto-fit);
+  justify-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  .lead {
+    margin: 0 auto 64px;
+  }
+}
