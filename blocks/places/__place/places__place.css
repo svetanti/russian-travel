@@ -1,0 +1,12 @@
+.places__place {
+  display: grid;
+  grid-template-columns: 46% auto;
+  grid-column-gap: 40px;
+  align-content: start;
+}
+
+@media screen and (max-width: 375px) {
+  .places__place {
+    display: block;
+  }
+}
