@@ -1,0 +1,21 @@
+.video__item {
+  max-width: 583px;
+  max-height: 323px;
+  border-radius: 3%;
+  text-align: left;
+  text-decoration: none;
+  display: grid;
+  grid-template-rows: 51% 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__item {
+    grid-template-rows: 43% 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__item {
+    grid-template-rows: 41% 1fr;
+  }
+}

@@ -1,0 +1,13 @@
+.video__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1.125rem;
+  grid-row-gap: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .video__container {
+    grid-template-columns: 1fr;
+  }
+}
