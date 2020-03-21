@@ -1,0 +1,13 @@
+.cover__rect {
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.cover__rect:hover {
+  opacity: .5;
+}
