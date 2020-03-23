@@ -4,8 +4,9 @@
 @import url('__accent/intro__accent.css');
 
 .intro {
-  max-width: 984px;
-  margin: 0 auto 102px;
+  max-width: 985px;
+  margin: 0 auto;
+  padding: 0 0 6.375rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,12 +17,12 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 0 auto 97px;
+   padding-bottom: 6.0625rem;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .intro {
-    margin: 0 auto 64px;
+   padding-bottom: 4rem;
   }
 }

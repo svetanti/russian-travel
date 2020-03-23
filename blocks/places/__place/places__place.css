@@ -1,12 +1,20 @@
 .places__place {
+  width: 100%;
   display: grid;
-  grid-template-columns: 46% auto;
-  grid-column-gap: 40px;
-  align-content: start;
+  grid-template-columns: 46% 1fr;
+  grid-template-rows: repeat(3, min-content);
+  grid-column-gap: 2.5rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1024px) {
   .places__place {
-    display: block;
+    grid-column-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .places__place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, min-content);
   }
 }

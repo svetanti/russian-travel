@@ -8,20 +8,21 @@
 
 .places {
     max-width: 984px;
-    margin: 0 auto 102px;
+    margin: 0 auto;
+    padding: 0 0 6.375rem;
     display: grid;
-    grid-row-gap: 72px;
+    grid-row-gap: 4.5rem;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1279px) {
     .places {
       width: 90%;
     }
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 639px) {
     .places {
       width: 100%;
-      margin: 0 auto 64px;
+      padding-bottom: 4rem;
     }
   }

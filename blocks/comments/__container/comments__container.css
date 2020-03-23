@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 19px;
+  grid-column-gap: 1.1875rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -12,6 +12,6 @@
     margin: 0 auto;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, min-content);
-    grid-row-gap: 47px;
+    grid-row-gap: 2.9375rem;
   }
 }

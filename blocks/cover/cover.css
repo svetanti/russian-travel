@@ -5,10 +5,17 @@
 
 .cover {
   max-width: 1184px;
-  margin: 0 auto 208px;
+  margin: 0 auto;
+  padding: 0;
   display: grid;
-  grid-template-rows: 58% 42%;
+  grid-template-rows: 70% 30%;
   position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 1024px) {

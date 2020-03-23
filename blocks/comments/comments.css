@@ -6,5 +6,18 @@
 
 .comments {
   max-width: 1184px;
-  margin: 0 auto 102px;
+  margin: 0 auto;
+  padding: 0 0 6.375rem;
+}
+
+@media screen and (max-width: 1279px) {
+  .comments {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 425) {
+  .comments {
+    padding-bottom: 3rem;
+  }
 }

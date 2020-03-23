@@ -1,23 +1,26 @@
 # Проект 3: Путешествие по России
+---
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+Проект создан с использованием расширенных возможностей HTML и CSS для просмотра на разных устройствах.
+При вёрстке использован подход Desktop First.
+---
 
-**Интро**
+## Технологии
+* Grid Layout
+* Flexbox-вёрстка
+* Медиазапросы
+* Использование относительных величин при указании размеров блоков и элементов
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+# Project 3: Travel across russia
+---
 
-**Figma**
+The project is created using some advanced features of HTML and CSS and it could adapt when viewed on different devices.
+The desktop-first approach is used.
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-(mobile)-(Copy)?node-id=0%3A1)
+---
 
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+## Technologies
+* Grid Layout
+* Flexbox
+* Media queries
+* Relative unitis

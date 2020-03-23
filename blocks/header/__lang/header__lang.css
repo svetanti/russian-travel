@@ -1,11 +1,16 @@
 .header__lang {
-  font-size: 24px;
-  line-height: 23px;
-  word-spacing: 18px;
+  font-size: 1.5rem;
+  line-height: 1.4375rem;
+  font-weight: normal;
+  word-spacing: 1.125rem;
   margin: 0;
-  padding-bottom: 12px;
+  padding-bottom: 0.75rem;
 }
 
-@media screen and (min-width: 1440px) {
-
+@media screen and (max-width: 425px) {
+  .header__lang {
+    font-size: 1.125rem;
+    line-height: 1.0625rem;
+    word-spacing: 1rem;
+  }
 }

@@ -1,9 +1,8 @@
 .video__icon_play {
   margin: 5% 0 0 5%;
-  z-index: 2;
   transition: transform .8s ease;
-  grid-row: 1/2;
-  grid-column: 1;
+  position: relative;
+  z-index: 2;
 }
 
 .video__icon_play:hover {

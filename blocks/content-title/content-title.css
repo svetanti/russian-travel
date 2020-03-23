@@ -3,6 +3,7 @@
   margin: 0 auto 3rem;
   font-size: 4.5rem;
   line-height: 4.8rem;
+  font-weight: 900;
   text-align: center;
 }
 
@@ -15,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .content-title {
     margin: 0 auto 1rem;
     font-size: 2rem;
