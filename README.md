@@ -23,4 +23,4 @@ The desktop-first approach is used.
 * Grid Layout
 * Flexbox
 * Media queries
-* Relative unitis
+* Relative units
