@@ -4,7 +4,8 @@
 @import url('__item/video__item.css');
 @import url('__rect/video__rect.css');
 @import url('__bg-image/video__bg-image.css');
-@import url('__icon_play/video__icon_play.css');
+@import url('__icon/video__icon.css');
+@import url('__icon/_play/video__icon_play.css');
 @import url('__text/video__text.css');
 @import url('__duration/video__duration.css');
 @import url('__title/video__title.css');

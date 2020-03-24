@@ -1,6 +1,6 @@
 @import url('__menu/footer__menu.css');
 @import url('__link/footer__link.css');
-@import url('__copywrite/footer__copywrite.css');
+@import url('__copyright/footer__copyright.css');
 
 .footer {
   max-width: 1184px;
