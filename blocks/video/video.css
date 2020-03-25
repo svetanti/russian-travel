@@ -2,9 +2,7 @@
 @import url('__content-subtitle/video__content-subtitle.css');
 @import url('__container/video__container.css');
 @import url('__item/video__item.css');
-@import url('__bg/video__bg.css');
-@import url('__bg/_image/video__bg_image_kamchatka.css');
-@import url('__bg/_image/video__bg_image_observatory.css');
+@import url('__bg-image/video__bg-image.css');
 @import url('__icon/video__icon.css');
 @import url('__icon/_play/video__icon_play.css');
 @import url('__text/video__text.css');
