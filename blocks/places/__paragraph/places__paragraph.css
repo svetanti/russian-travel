@@ -9,6 +9,12 @@
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .places__paragraph {
+    margin-bottom: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 639px) {
   .places__paragraph {
     width: 90%;

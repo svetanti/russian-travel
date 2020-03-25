@@ -11,13 +11,14 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 90%;
+    width: 90.625%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
    padding-bottom: 6.0625rem;
+   width: 93.75%;
   }
 }
 

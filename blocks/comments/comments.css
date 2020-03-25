@@ -10,14 +10,38 @@
   padding: 0 0 6.375rem;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .comments {
-    width: 90%;
+    width: 92.5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .comments {
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments {
+    width: 93.75%;
   }
 }
 
 @media screen and (max-width: 425) {
   .comments {
     padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comments {
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .comments {
+    width: 90%;
   }
 }

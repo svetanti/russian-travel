@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .lead__title {
+  .intro__title {
     font-size: 7.03vw;
     line-height: 7.68vw;
     margin-bottom: 6.25vw;

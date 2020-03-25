@@ -8,13 +8,13 @@
   margin: 0 auto;
   padding: 0;
   display: grid;
-  grid-template-rows: 70% 30%;
+  grid-template-rows: 1fr;
   position: relative;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .cover {
-    width: 90%;
+    width: 92.5%;
   }
 }
 
