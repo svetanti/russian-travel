@@ -1,26 +1,40 @@
-# Проект 3: Путешествие по России
+# Путешествие по России. Проект для Яндекс.Практикума
 ---
 
-Проект создан с использованием расширенных возможностей HTML и CSS для просмотра на разных устройствах.
+Адаптивный одностраничный сайт, созданный по макету Figma.
 При вёрстке использован подход Desktop First.
 ---
 
-## Технологии
+## Стек
+* HTML
+* CSS
+
+## Реализация
 * Grid Layout
 * Flexbox-вёрстка
 * Медиазапросы
 * Использование относительных величин при указании размеров блоков и элементов
 
+## Ссылка на сайт:
+https://svetanti.github.io/russian-travel/
+
 # Project 3: Travel across russia
 ---
 
-The project is created using some advanced features of HTML and CSS and it could adapt when viewed on different devices.
+The adaptive single page website, developed with a Figma prototype.
 The desktop-first approach is used.
+
+## Stack
+* HTML
+* CSS
 
 ---
 
-## Technologies
+## Realization
 * Grid Layout
 * Flexbox
 * Media queries
 * Relative units
+
+## URL:
+https://svetanti.github.io/russian-travel/
